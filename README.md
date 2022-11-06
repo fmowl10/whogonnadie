@@ -14,7 +14,7 @@
 
 /isxdead [movie] [character] : movie안에서 character가 죽었는지 알려 줍니다. 이것또한 가려져있습니다.
 
-[movie] 입력시 띄어쓰기가 있는 경우 쌍따옴표(") 안에 넣어 입력해주세요. (Squid Game "Squid Game")
+[movie] 또는 [character] 입력시 띄어쓰기가 있는 경우 쌍따옴표(") 안에 넣어 입력해주세요. (Squid Game "Squid Game")
 
 자료 발췌
 https://listofdeaths.fandom.com/wiki/Main_characters
