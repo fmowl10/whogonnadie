@@ -57,7 +57,7 @@ async def listchara(ctx, movieName):
 @bot.command()
 async def isxdead(ctx, movieName, name):
     if not movieName in deadList:
-        out = f"we dont know about {movieName}Phew"
+        out = f"we dont know about {movieName}\nPhew"
         await ctx.send(out)
         return
 
