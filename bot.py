@@ -18,10 +18,12 @@ TOKEN=''
 
 @bot.command()
 async def helpdetail(ctx):
-    out = """helpdetail - show this message
-            /list show of videos
-            /listchara __video__ dead list of __video__
-            /isxdead __video__ __name__ is __name__ of __video__ dead"""
+    out = (
+        "/helpdetail - show this message\n"
+        "/list show of videos\n"
+        "/listchara __video__ dead list of __video__\n"
+        "/isxdead __video__ __name__ is __name__ of __video__ dead"
+    )
     await ctx.send(out)
     
 
