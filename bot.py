@@ -17,7 +17,7 @@ TOKEN=''
 
 
 @bot.command()
-async def helpDetail(ctx):
+async def helpdetail(ctx):
     out = """helpdetail - show this message
             /list show of videos
             /listchara __video__ dead list of __video__
@@ -53,7 +53,7 @@ async def listchara(ctx, movieName):
     await ctx.send(out)
 
 @bot.command()
-async def isXDead(ctx, movieName, name):
+async def isXdead(ctx, movieName, name):
     if not movieName in deadList:
         out = f"we dont know about {movieName}Phew"
         await ctx.send(out)
