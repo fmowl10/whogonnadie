@@ -21,7 +21,7 @@ async def helpdetail(ctx):
     out = """helpdetail - show this message
             /list show of videos
             /listchara __video__ dead list of __video__
-            /isXDead __video__ __name__ is __name__ of __video__ dead"""
+            /isxdead __video__ __name__ is __name__ of __video__ dead"""
     await ctx.send(out)
     
 
